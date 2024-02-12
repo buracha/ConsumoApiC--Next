@@ -9,12 +9,8 @@
 }
 
 body {
-	background-image: url('/tong-wei-lofii-n-1-min.gif');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	overflow: inherit;
-	background-attachment: fixed;
+	background-image: url('/trip.gif');
+	
 }
 
 
@@ -64,8 +60,8 @@ a {
 }
 
 a:hover {
-	text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #fb8cf9,
-		0 0 18px #fb8cf9, 0 0 22px #fb8cf9, 0 0 32px #fb8cf9, 0 0 42px #fb8cf9;
+	text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #1c19d4,
+		0 0 18px #1c19d4, 0 0 22px #1c19d4, 0 0 32px  #1c19d4, 0 0 42px  #1c19d4;
 }
 
 

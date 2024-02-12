@@ -8,14 +8,18 @@ export default async function card() {
     return (
         <div className={styles.container}>
         {cards ?.map((card) =>(
-            <div key={card.id_cliente} className={styles.card}>
+            <div key={card.id_cliente} className={styles.card}>  
                 <div className={styles.card_header}>
+                <div className={styles.perfil}>
+                <img src="/perfil.png" ></img>
+                </div>
+                
                 <div className={styles.card_body}>
-                    <h1>NOME:{card.name}</h1>
-					<h1>CPF:{card.cpf}</h1>
-					<h1>TELEFONE:{card.telefone}</h1>
-					<h1>EMAIL:{card.email}</h1>
-					<h1>SENHA:{card.senha}</h1>
+                    <h1 className={styles.container}>NOME:{card.name}</h1>
+					<h1 className={styles.container}>CPF:{card.cpf}</h1>
+					<h1 className={styles.container}>TELEFONE:{card.telefone}</h1>
+					<h1 className={styles.container}>EMAIL:{card.email}</h1>
+					<h1 className={styles.container}>SENHA:{card.senha}</h1>
 				
                 </div>
                 </div>
